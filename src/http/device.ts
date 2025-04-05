@@ -1510,7 +1510,8 @@ export class Device extends TypedEmitter<DeviceEvents> {
             sn.startsWith("T8502") ||
             sn.startsWith("T8504") ||
             sn.startsWith("T8506") ||
-            sn.startsWith("T8530");
+            sn.startsWith("T8530") ||
+	    sn.startsWith("T85D0");
     }
 
     static isGarageCameraBySn(sn: string): boolean {
